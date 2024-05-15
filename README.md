@@ -14,10 +14,15 @@ This dataset contains a column HDWY_DEV, which shows the amount of deviation fro
 Another important variable is **adherence**, [bus is running on time, is it sticking to the planned schedule?] which compares the actual departure time to the scheduled time and is included in the ADHERENCE column. A negative adherence value means that a bus left a time point late and a positive adherence indicates that the bus left the time point early. Buses with adherence values beyond negative 6 are generally considered late and beyond positive 1 are considered early. However, there is some additional logic where the staff applies waivers to allow early departures, such as an express bus that has already picked up everyone at a park-and-ride lot and is only dropping people off at the remaining stops, and also allows for early timepoint records for all records where TRIP_EDGE = 2 (end of trip), since it is not a problem if a bus ends its trip early as long as it didn't pass other timepoints early along the way. **Note:** When determining whether a bus is early or late, it is advised that you use the 'ADJUSTED_EARLY_COUNT', 'ADJUSTED_LATE_COUNT', and 'ADJUSTED_ONTIME_COUNT' columns in order to account for the adjustments.  [no more than 6 mins late, or 1 min early -  "on time"; as close to 0 as possible is the goal] 
 
 Goals of this project:
+
 1. What is the overall on-time performance, and what do the overall distributions of adherence and headway deviation look like? - can be percentage
+
 2. How does direction of travel, route, or location affect the headway and on-time performance? - towards downtown or away from downtown for example
+
 3. How does time of day or day of week affect headway and on-time performance?
+
 4. How much of a factor does the driver have on headway and on-time performance? The driver is indicated by the OPERATOR variable. - top/bottom drivers for driving performance
+
 5. Is there any relationship between lateness (ADHERENCE) and headway deviation?
 
 **Stretch Goals:**  
