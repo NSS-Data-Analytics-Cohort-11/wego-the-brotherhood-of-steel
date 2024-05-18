@@ -37,6 +37,8 @@ SCHEDULED_HDWY: Scheduled headway in minutes for the given timepoint crossing re
 ACTUAL_HDWY: Actual headway  
 
 HDWY_DEV: calculates headway deviation in minutes as the difference between actual and scheduled headway. Negative values indicate a shorter headway than scheduled (i.e. bunching) and positive values indicate a longer headway than scheduled (i.e. gapping)  
+
+
 ADJUSTED_EARLY_COUNT: An indicator for if the bus is considered to be early  
 ADJUSTED_LATE_COUNT: An indicator for if the bus is considered to be late  
 ADJUSTED_ONTIME_COUNT: An indicator for if the bus is considered to be on time  

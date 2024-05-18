@@ -1,0 +1,28 @@
+number_3_to_downtown
+number_3_from_downtown
+number_7_to_downtown
+number_7_from_downtown
+number_22_to_downtown
+number_22_from_downtown
+number_23_to_downtown
+number_23_from_downtown
+number_50_to_downtown
+number_50_from_downtown
+number_52_to_downtown
+number_52_from_downtown
+number_55_to_downtown
+number_55_from_downtown
+number_56_to_downtown
+number_56_from_downtown
+
+routes going from downtown and to downtown
+
+
+3: West End
+7: Hillsboro
+22: Bordeaux
+23: Dickerson Pike
+50: Charlotte Pike
+52: Nolensville Pike
+55: Murfreesboro Pike
+56: Gallatin Pike
