@@ -26,3 +26,15 @@ routes going from downtown and to downtown
 52: Nolensville Pike
 55: Murfreesboro Pike
 56: Gallatin Pike
+
+
+#2. time point abbr IS location
+
+56    44069
+55    39741
+52    35683
+50    33337
+3     32626
+23    30720
+22    17999
+7     12044
