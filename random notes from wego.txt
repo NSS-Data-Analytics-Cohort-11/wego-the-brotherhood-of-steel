@@ -38,3 +38,5 @@ routes going from downtown and to downtown
 23    30720
 22    17999
 7     12044
+
+astype(str) when doing question 6

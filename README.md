@@ -28,7 +28,22 @@ Goals of this project:
 **Stretch Goals:**  
 
 6. How much impact does being late or too spaced out at the first stop have downstream? - if we start out late, does it get worse/better/same? any pattern as we move along a route?
+
+
 7. What is the impact of the layover at the start of the trip (the difference between the first stop arrival and departure time)? Does more dwell time at the beginning of a trip lead to more stable headways (lower values for % headway deviation)? Do trips with longer **scheduled** layover time have more stable headway values?  - ususally 1 driver on one route, and turn around at the end, if there is a layaway between end of trip and start of next time having anything to do with it? you can look at SCHEDULED layover and go from there.
+
+
 8. What is the relationship between distance or time traveled since the start of a given trip and the headway deviation? Does headway become less stable the further along the route the bus has traveled?
 
 *****  calendar id and trip id combo should always be UNQIUE, but not nessarily apart 
+********** actual / scheduled * 100
+
+
+*** wego = wego.dropna(subset= ['ADHERENCE','SCHEDULED_HDWY', 'ACTUAL_HDWY' ])
+
+wego = wego[wego['PREV_SCHED_STOP_CANCELLED'] != 1]
+
+wego = wego[wego['STOP_CANCELLED'] != 1]
+
+wego = wego[wego['SCHEDULED_HDWY'] != 0]
+
